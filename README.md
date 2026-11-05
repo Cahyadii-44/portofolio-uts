@@ -27,7 +27,9 @@ Lalu buka `http://localhost:8000/index.html`.
 
 ## Bukti Demo PHP
 
-- Tangkapan layar: `bukti/search.png`, `bukti/kontak.png`  *(tambahkan sendiri)*
+- Tangkapan layar: `bukti/search.png`<img width="1357" height="670" alt="Cuplikan layar 2026-11-05 133635" src="https://github.com/user-attachments/assets/6ef4f562-d5f3-4cb5-8f1a-5cfb359a1163" />
+, `bukti/kontak.png`  *(<img width="1346" height="677" alt="Cuplikan layar 2026-11-05 133819" src="https://github.com/user-attachments/assets/c681bb0e-dabc-48e4-970e-aaa079591bf6" />
+)*
 - Video demo: *(tempel tautan di sini)*
 
 ## Fitur
