@@ -3,7 +3,7 @@
 - **Nama** : Cahyadi
 - **NIM**  : 202401251027
 - **Mata Kuliah** : Pemrograman Web 1 (Dosen: Rahmat Gunawan, M.Kom.)
-- **Tautan Vercel** :(https://portofolio-uts-woad.vercel.app/)
+- **Tautan Vercel** :https://portofolio-uts-woad.vercel.app/
 
 ## Struktur Berkas
 
