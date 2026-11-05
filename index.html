@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portofolio mahasiswa: proyek web dengan HTML, CSS, Flexbox, dan PHP dasar.">
+    <title>Beranda | Portofolio Cahyadi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="situs-header">
+    <h1 class="judul-situs">Portofolio Cahyadi</h1>
+    <nav aria-label="Navigasi utama">
+        <ul class="menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="search.php">Cari Proyek</a></li>
+            <li><a href="kontak.php">Kontak</a></li>
+            <li><a href="https://www.linkedin.com/in/username-anda" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="halaman">
+    <div id="content" class="konten">
+
+        <article class="artikel" id="tentang">
+            <h2>Halo, saya Cahyadi</h2>
+            <p>Saya mahasiswa Teknik Informatika yang sedang belajar membangun website dari dasar:
+               struktur HTML yang rapi, tampilan dengan CSS, layout fleksibel dengan Flexbox,
+               dan pemrosesan data dengan PHP.</p>
+            <p>Halaman ini merangkum proyek yang pernah saya kerjakan. Anda juga bisa
+               <a href="search.php">mencari proyek</a> berdasarkan kata kunci atau
+               <a href="kontak.php">mengirim pesan</a> kepada saya.</p>
+        </article>
+
+        <article class="artikel" id="proyek">
+            <h2>Proyek Pilihan</h2>
+            <ul class="daftar-proyek">
+                <li>
+                    <h3>Website Portofolio Pribadi</h3>
+                    <p>Situs ini sendiri: HTML semantik, CSS terpisah, dan layout Flexbox responsif.</p>
+                </li>
+                <li>
+                    <h3>Kalkulator Pajak Sederhana</h3>
+                    <p>Formulir PHP dengan validasi input dan penampilan hasil perhitungan.</p>
+                </li>
+                <li>
+                    <h3>Katalog Buku Perpustakaan</h3>
+                    <p>Daftar buku dengan pencarian judul lewat parameter GET.</p>
+                </li>
+            </ul>
+        </article>
+
+        <article class="artikel" id="keahlian">
+            <h2>Keahlian</h2>
+            <ul class="tag">
+                <li>HTML &amp; Semantic HTML</li>
+                <li>CSS &amp; Flexbox</li>
+                <li>PHP dasar</li>
+                <li>Git &amp; GitHub</li>
+                <li>Deploy ke Vercel</li>
+            </ul>
+        </article>
+
+    </div>
+
+    <aside class="samping" aria-label="Profil singkat">
+        <img src="images/foto-profil.svg" alt="Foto profil Cahyadi" width="400" height="400">
+        <h2>Biodata</h2>
+        <dl>
+            <dt>Nama</dt><dd>Cahyadi</dd>
+            <dt>NIM</dt><dd>202401251027</dd>
+            <dt>Program Studi</dt><dd>Teknik Informatika</dd>
+            <dt>Kota</dt><dd>Karawang, Jawa Barat</dd>
+        </dl>
+    </aside>
+</main>
+
+<footer class="situs-footer">
+    <p>&copy; 2026 Cahyadi &ndash; Proyek UTS Pemrograman Web 1</p>
+</footer>
+
+</body>
+</html>
